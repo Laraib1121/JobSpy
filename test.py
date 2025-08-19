@@ -3,7 +3,6 @@ from jobspy import scrape_jobs
 
 jobs = scrape_jobs(
     site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor", "google"],
-    search_term="software engineer intern",
     google_search_term="software engineer intern jobs near Toronto, Ontario since yesterday",
     # Glassdoor's location API rejects province abbreviations; provide the full
     # region and country to avoid a 400 "location not parsed" response.
